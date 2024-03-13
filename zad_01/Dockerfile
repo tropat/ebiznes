@@ -32,5 +32,6 @@ COPY build.gradle /app/
 RUN gradle build --no-daemon
 
 COPY HelloWorld.java /app/
+RUN javac HelloWorld.java
 
 CMD ["java", "HelloWorld"]
