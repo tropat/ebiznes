@@ -30,3 +30,7 @@ WORKDIR /app
 COPY build.gradle /app/
 
 RUN gradle build --no-daemon
+
+COPY HelloWorld.java /app/
+
+CMD ["java", "HelloWorld"]
