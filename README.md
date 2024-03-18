@@ -1,4 +1,4 @@
-Zadanie 1 Tytuł
+Zadanie 1 Docker
 
 ✅ 3.0 wymaganie 1 [ubuntu and python 3.8](https://github.com/tropat/ebiznes/commit/c0780d384166e84f73d62b70ee323a709a3b125b)
 
