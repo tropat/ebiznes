@@ -1,0 +1,8 @@
+
+GET     /all                        controllers.Product.getAllProducts()
+GET     /product/:id                controllers.Product.getProductById(id: Int)
+POST    /add                        controllers.Product.addProduct()
+PUT     /update/:id                 controllers.Product.updateProduct(id: Int)
+DELETE  /delete/:id                 controllers.Product.deleteProduct(id: Int)
+
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
