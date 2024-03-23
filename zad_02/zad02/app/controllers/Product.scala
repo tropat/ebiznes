@@ -5,7 +5,7 @@ import play.api.mvc._
 
 @Singleton
 class Product @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
-  private var products: List[String] = List("1", "2", "3", "4", "5", "6", "7", "8")
+  private var products: List[String] = List("product_1", "product_2", "product_3", "product_4", "product_5", "product_6", "product_7", "product_8")
 
   def getAllProducts: Action[AnyContent] = Action {
     Ok(products.mkString(" "))
