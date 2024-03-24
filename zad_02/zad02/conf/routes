@@ -2,19 +2,19 @@
 GET     /product/all                    controllers.Product.getAllProducts()
 GET     /product/:id                    controllers.Product.getProductById(id: Int)
 POST    /product/add                    controllers.Product.addProduct()
-PUT     /product/update/:id             controllers.Product.updateProduct(id: Int)
+PUT     /product/update/:id/:value     controllers.Product.updateProduct(id: Int, value: String)
 DELETE  /product/delete/:id             controllers.Product.deleteProduct(id: Int)
 
 GET     /category/all                    controllers.Category.getAllCategories()
 GET     /category/:id                    controllers.Category.getCategoryById(id: Int)
 POST    /category/add                    controllers.Category.addCategory()
-PUT     /category/update/:id             controllers.Category.updateCategory(id: Int)
+PUT     /category/update/:id/:value      controllers.Category.updateCategory(id: Int, value: String)
 DELETE  /category/delete/:id             controllers.Category.deleteCategory(id: Int)
 
 GET     /cart/all                    controllers.Cart.getAllCartItems()
 GET     /cart/:id                    controllers.Cart.getCartItemById(id: Int)
 POST    /cart/add                    controllers.Cart.addCartItem()
-PUT     /cart/update/:id             controllers.Cart.updateCartItem(id: Int)
+PUT     /cart/update/:id/:value      controllers.Cart.updateCartItem(id: Int, value: String)
 DELETE  /cart/delete/:id             controllers.Cart.deleteCart(id: Int)
 
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

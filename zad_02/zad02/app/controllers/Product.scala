@@ -18,9 +18,10 @@ class Product @Inject()(val controllerComponents: ControllerComponents) extends 
     }
   }
 
-  def updateProduct(id: Int): Action[AnyContent] = Action {
+  def updateProduct(id: Int, value: String): Action[AnyContent] = Action {
     products.lift(id - 1) match {
       case Some(_) =>
+        products = products.updated(id-1, value)
         Ok(s"Product $id updated")
       case None => NotFound("Product not found")
     }

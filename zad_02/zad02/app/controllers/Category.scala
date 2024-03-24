@@ -18,9 +18,10 @@ class Category @Inject()(val controllerComponents: ControllerComponents) extends
     }
   }
 
-  def updateCategory(id: Int): Action[AnyContent] = Action {
+  def updateCategory(id: Int, value: String): Action[AnyContent] = Action {
     categories.lift(id - 1) match {
       case Some(_) =>
+        categories = categories.updated(id-1, value)
         Ok(s"Category $id updated")
       case None => NotFound("Category not found")
     }

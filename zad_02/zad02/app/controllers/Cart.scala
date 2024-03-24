@@ -18,9 +18,10 @@ class Cart @Inject()(val controllerComponents: ControllerComponents) extends Bas
     }
   }
 
-  def updateCartItem(id: Int): Action[AnyContent] = Action {
+  def updateCartItem(id: Int, value: String): Action[AnyContent] = Action {
     cart.lift(id - 1) match {
       case Some(_) =>
+        cart = cart.updated(id-1, value)
         Ok(s"Item $id updated")
       case None => NotFound("Item not found")
     }
