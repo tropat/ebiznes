@@ -13,3 +13,19 @@ Zadanie 1 Docker
 Kod: ./zad_01
 
 DockerHub: https://hub.docker.com/repositories/tropat
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Zadanie 2 Scala
+
+✅ 3.0 wymaganie 1
+
+✅ 3.5 wymaganie 2 [Product controller and CRUD endpoints](https://github.com/tropat/ebiznes/commit/3378011a6ada33551c158be7648188ddbc1e2cbf)
+
+✅ 4.0 wymaganie 3 [Category and Cart controllers](https://github.com/tropat/ebiznes/commit/771b225cbc2d3c142f21c60cb9de47826e10dca0)
+
+❌ 4.5 wymaganie 4
+
+❌ 5.0 wymaganie 5
+
+Kod: ./zad_02/zad02
