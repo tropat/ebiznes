@@ -20,9 +20,9 @@ Zadanie 2 Scala
 
 ✅ 3.0 wymaganie 1
 
-✅ 3.5 wymaganie 2 [Product controller and CRUD endpoints](https://github.com/tropat/ebiznes/commit/3378011a6ada33551c158be7648188ddbc1e2cbf)
+✅ 3.5 wymaganie 2 [Product controller and CRUD endpoints](https://github.com/tropat/ebiznes/commit/3378011a6ada33551c158be7648188ddbc1e2cbf) [update](https://github.com/tropat/ebiznes/commit/0106b88a601dc5050ac3601399ed8cf09d6d543d)
 
-✅ 4.0 wymaganie 3 [Category and Cart controllers](https://github.com/tropat/ebiznes/commit/771b225cbc2d3c142f21c60cb9de47826e10dca0)
+✅ 4.0 wymaganie 3 [Category and Cart controllers](https://github.com/tropat/ebiznes/commit/771b225cbc2d3c142f21c60cb9de47826e10dca0) [update](https://github.com/tropat/ebiznes/commit/0106b88a601dc5050ac3601399ed8cf09d6d543d)
 
 ❌ 4.5 wymaganie 4
 
