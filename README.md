@@ -33,6 +33,7 @@ Kod: ./zad_02/zad02
 -------------------------------
 
 Zadanie 3 Kotlin
+
 ✅ 3.0 wymaganie 1 [Connect to bot and send a message](https://github.com/tropat/ebiznes/commit/7acc93ab02d03de18ea3de6d66dd638ed81f0c88#diff-5c78a5687d547d9913a4b8c75a0ca2672caad629532e38c1f47decde9ee3fb19R1)
 
 ❌ 3.5 wymaganie 2
