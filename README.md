@@ -36,11 +36,11 @@ Zadanie 3 Kotlin
 
 ✅ 3.0 wymaganie 1 [Connect to bot and send a message](https://github.com/tropat/ebiznes/commit/7acc93ab02d03de18ea3de6d66dd638ed81f0c88#diff-5c78a5687d547d9913a4b8c75a0ca2672caad629532e38c1f47decde9ee3fb19R1)
 
-❌ 3.5 wymaganie 2
+✅ 3.5 wymaganie 2
 
-❌ 4.0 wymaganie 3
+✅ 4.0 wymaganie 3
 
-❌ 4.5 wymaganie 4
+✅ 4.5 wymaganie 4 [Add other functionalities](https://github.com/tropat/ebiznes/commit/b9c0a5f3f0be1358d62fce140a104fd77df1b83b)
 
 ❌ 5.0 wymaganie 5
 
