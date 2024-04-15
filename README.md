@@ -61,3 +61,19 @@ Zadanie 4 Go
 ❌ 5.0 wymaganie 5
 
 Kod: ./zad_04
+
+-------------------------------
+
+Zadanie 5 Frontend
+
+✅ 3.0 wymaganie 1 [React app](https://github.com/tropat/ebiznes/commit/51125100b57a41e7dd0321650889024c65f91cbd#diff-687bf35b0efb53f64cfa4b2061ff49b1c2a79d1b43036d918f46027a42ca3276R1)
+
+❌ 3.5 wymaganie 2
+
+❌ 4.0 wymaganie 3
+
+❌ 4.5 wymaganie 4 
+
+❌ 5.0 wymaganie 5
+
+Kod: ./zad_05
