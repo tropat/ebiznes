@@ -45,3 +45,19 @@ Zadanie 3 Kotlin
 ❌ 5.0 wymaganie 5
 
 Kod: ./zad_03/zad03
+
+-------------------------------
+
+Zadanie 4 Go
+
+✅ 3.0 wymaganie 1 
+
+✅ 3.5 wymaganie 2
+
+✅ 4.0 wymaganie 3
+
+✅ 4.5 wymaganie 4 [Go application](https://github.com/tropat/ebiznes/commit/e0e93511fe09353b8c9cb398acbddb0a7c61d90a)
+
+❌ 5.0 wymaganie 5
+
+Kod: ./zad_04
