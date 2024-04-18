@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 
-const Platnosci = () => {
-    const [formData, setFormData] = useState({});
-
+const Platnosci = ({ formData, setFormData }) => {
     const handleInputChange = event => {
         const { name, value } = event.target;
         var newValue = name === "Cena" ? parseFloat(value) : value;
@@ -19,7 +17,11 @@ const Platnosci = () => {
         event.preventDefault();
         try {
             console.log(formData);
-            await axios.post('http://localhost:8080/produkty', formData);
+            await axios.post('http://localhost:8080/produkty', formData, {
+                headers: {
+                    'Access-Control-Allow-Origin': '*'
+                }
+            });
             console.log('Dane zostały wysłane');
         } catch (error) {
             console.error('Błąd podczas wysyłania danych:', error);

@@ -1,13 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 
-const Produkty = () => {
-    const [produkty, setProdukty] = useState([]);
+const Produkty = ({ produkty, setProdukty }) => {
 
     useEffect(() => {
         const fetchProdukty = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/produkty');
+                const response = await axios.get('http://localhost:8080/produkty', {
+                    headers: {
+                        'Access-Control-Allow-Origin': '*'
+                    }
+                });
                 setProdukty(response.data);
             } catch (error) {
                 console.error('Błąd podczas pobierania danych:', error);
