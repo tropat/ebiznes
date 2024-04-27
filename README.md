@@ -77,3 +77,20 @@ Zadanie 5 Frontend
 ✅ 5.0 wymaganie 5 [React app + Docker](https://github.com/tropat/ebiznes/commit/7934a53bcdeb595be3ef11ed0debbcd1651485f8)
 
 Kod: ./zad_05
+
+-------------------------------
+
+Zadanie 6 Testy
+
+✅ 3.0 wymaganie 1 [Testy selenium](https://github.com/tropat/ebiznes/commit/46a1d9840f6fe69507158dce18e1604ec65ef282)
+
+✅ 3.5 wymaganie 2
+
+❌ 4.0 wymaganie 3
+
+❌ 4.5 wymaganie 4 
+
+❌ 5.0 wymaganie 5 
+
+Kod: ./zad_06
+
