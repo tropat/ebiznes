@@ -94,3 +94,42 @@ Zadanie 6 Testy
 
 Kod: ./zad_06
 
+-------------------------------
+
+Zadanie 7 Sonar
+
+✅ 3.0 wymaganie 1
+
+```sh
+GOLANGCI_LINT_BIN=$(which golangci-lint)
+PROJECT_DIR=$(git rev-parse --show-toplevel)
+IFS=$'\n'
+"$GOLANGCI_LINT_BIN" run "$PROJECT_DIR"
+```
+
+![Zrzut ekranu 2024-05-07 180627](https://github.com/tropat/ebiznes/assets/79634369/9d48fa0d-9329-4f5a-a15f-530731851d64)
+
+
+✅ 3.5 wymaganie 2
+
+![Zrzut ekranu 2024-05-07 181305](https://github.com/tropat/ebiznes/assets/79634369/00055825-1f2c-49bd-a9ad-87b25431f108)
+
+![Zrzut ekranu 2024-05-07 181407](https://github.com/tropat/ebiznes/assets/79634369/3c041c56-c791-4c8c-8997-d44a8be41300)
+
+
+✅ 4.0 wymaganie 3
+
+![Zrzut ekranu 2024-05-07 181447](https://github.com/tropat/ebiznes/assets/79634369/3e56f9ad-09ae-416a-9829-7ae612f21e0c)
+
+![Zrzut ekranu 2024-05-07 193203](https://github.com/tropat/ebiznes/assets/79634369/5a874280-a6d1-4d2f-bcfa-600e71b7fb6c)
+
+
+✅ 4.5 wymaganie 4 
+
+![Zrzut ekranu 2024-05-07 193203](https://github.com/tropat/ebiznes/assets/79634369/77bb4424-441a-4e3c-a097-88a819fd3cfe)
+
+
+❌ 5.0 wymaganie 5 
+
+Repozytorium: https://github.com/tropat/sonar-go
+SonarCloud: https://sonarcloud.io/code?id=tropat_sonar-go
