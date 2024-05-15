@@ -133,3 +133,19 @@ IFS=$'\n'
 
 Repozytorium: https://github.com/tropat/sonar-go
 SonarCloud: https://sonarcloud.io/code?id=tropat_sonar-go
+
+-------------------------------
+
+Zadanie 8 OAuth2
+
+✅ 3.0 wymaganie 1 
+
+✅ 3.5 wymaganie 2 [log in and register](https://github.com/tropat/ebiznes/commit/a48412cd4453883df4fd3b56c464999debe40b63)
+
+❌ 4.0 wymaganie 3
+
+❌ 4.5 wymaganie 4 
+
+❌ 5.0 wymaganie 5 
+
+Kod: ./zad_08
