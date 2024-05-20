@@ -156,7 +156,7 @@ Zadanie 9 ChatGPT bot
 
 ✅ 3.0 wymaganie 1 [server](https://github.com/tropat/ebiznes/commit/27d43c5dfe90c5908dea391534fd602bf055f213)
 
-❌ 3.5 wymaganie 2
+✅ 3.5 wymaganie 2 [frontend](https://github.com/tropat/ebiznes/commit/8e2a416994da8a6944bda0f2cfeca27bc8445697)
 
 ❌ 4.0 wymaganie 3
 
