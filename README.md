@@ -149,3 +149,19 @@ Zadanie 8 OAuth2
 ❌ 5.0 wymaganie 5 
 
 Kod: ./zad_08
+
+-------------------------------
+
+Zadanie 9 ChatGPT bot
+
+✅ 3.0 wymaganie 1 [server](https://github.com/tropat/ebiznes/commit/27d43c5dfe90c5908dea391534fd602bf055f213)
+
+❌ 3.5 wymaganie 2
+
+❌ 4.0 wymaganie 3
+
+❌ 4.5 wymaganie 4 
+
+❌ 5.0 wymaganie 5 
+
+Kod: ./zad_09
