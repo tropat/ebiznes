@@ -165,3 +165,19 @@ Zadanie 9 ChatGPT bot
 ❌ 5.0 wymaganie 5 
 
 Kod: ./zad_09
+
+-------------------------------
+
+Zadanie 10 Chmura/CI
+
+✅ 3.0 wymaganie 1 [ci-cd.yml](https://github.com/tropat/ebiznes/commit/e3b19e541b9fe0bbd9e725f785d21f7b0e2b189e)
+
+❌ 3.5 wymaganie 2
+
+❌ 4.0 wymaganie 3
+
+❌ 4.5 wymaganie 4 
+
+❌ 5.0 wymaganie 5 
+
+Kod: ./zad_10
