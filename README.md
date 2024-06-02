@@ -181,3 +181,7 @@ Zadanie 10 Chmura/CI
 ❌ 5.0 wymaganie 5 
 
 Kod: ./zad_10
+
+![obraz](https://github.com/tropat/ebiznes/assets/79634369/55007704-e5ad-4cf5-9fa2-9b3e954069bd)
+
+![obraz](https://github.com/tropat/ebiznes/assets/79634369/e4c1a0ad-d608-48cb-8ddd-91ed5e45045c)
